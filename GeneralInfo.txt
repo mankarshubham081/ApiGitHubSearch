@@ -1,0 +1,13 @@
+***************************************************************
+How To Run the App/project
+***************************************************************
+	a) Download or clone the zip file
+	
+	b) Extract the .zip file
+	
+	c) Navigate into folder and fire the command : npm install
+	
+	d) Run the application by ng serve command : ng serve
+	
+	e)Open any browser and navigate to : http://localhost:4200
+
