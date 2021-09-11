@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sort By
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item"  (click)="sortUser('name')">Name (A-Z)</a>
+            <a class="dropdown-item"  (click)="sortUser('name')">Name (Z-A)</a>
+            <a class="dropdown-item"  (click)="sortUser('rank')">Rank (A-Z)</a>
+            <a class="dropdown-item"  (click)="sortUser('rank')">Rank (Z-A)</a>
+            
+          </div>
+        </li>
+      </ul>
+      <form id="searchForm" (ngSubmit)="searchUsers(searchTerm)" class="form-inline my-2 my-lg-0">
+        <input [(ngModel)]="searchTerm" name="searchTerm" class="form-control mr-sm-2 search-input" type="search" placeholder="Search Users"
+          aria-label="Search">
+        <div id="search-btn" (click)="searchUsers(searchTerm)">
+          <img [src]="'../assets/images/search.png'">
+        </div>
+    </form>
+    </div>
+  </nav>

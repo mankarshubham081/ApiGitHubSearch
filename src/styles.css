@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+  .hoverwell:hover {
+    background-color: #485563;
+    cursor: pointer;
+  }
+
+  #navbarDropdown{
+    color: #ffffff;
+  }
+  .list-box{
+    background-color: #fdfdfd;
+    padding: 30px 130px;
+  }
+
+  #search-btn > img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 80px;
+    top: 15px;
+  }
+  .search-input{
+    float: left;
+  }
+
+  #search-btn{
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+  }
+  .thumbnail{
+    margin:10px;
+    padding: 30px;
+    box-shadow: 0px 2px 10px #c2bfbf;
+    background-color: #fefefe;
+  }
+  #details-btn{
+    border-radius: 4px;
+    background-color: #fefefe;
+    float: right;
+    border: 2px solid #007bff;
+    color: #007bff;
+    margin-top: -40px;
+    padding: 5px 35px;
+
+  }
+  .profile-space{
+    margin-bottom: 10px;
+  }
+  .img-section > img{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .container {
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+  }
+  
+  .pointable {
+    cursor: pointer;
+  }
+  
+  button {
+    color: #555;
+  }
+  
+  [hidden] {
+    display: none !important;
+  }
+  
