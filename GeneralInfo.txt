@@ -11,3 +11,15 @@ How To Run the App/project
 	
 	e)Open any browser and navigate to : http://localhost:4200
 
+
+***************************************************************
+if downloaded project is not working 
+***************************************************************
+	i)if it isn't working by defaultly then use command : ng update
+
+	ii)if its still doesn't work try fresh install : npm install
+
+	iii)if Your problem still does not solve then use this package.json dependecies, from this Resource.
+
+Link of Resource : https://stackoverflow.com/questions/50333003/could-not-find-module-angular-devkit-build-angular
+
